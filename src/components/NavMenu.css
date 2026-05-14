@@ -1,0 +1,40 @@
+.nav-menu {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.nav-link {
+  color: #cbd5f5;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1rem;
+  padding: 0.4rem 0.6rem;
+  border-radius: 6px;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.nav-link:hover {
+  color: #22d3ee;
+  background-color: rgba(34, 211, 238, 0.08);
+}
+
+.nav-link.active {
+  color: #22d3ee;
+  font-weight: 700;
+}
+
+@media (max-width: 768px) {
+  .nav-menu {
+    flex-direction: column;
+    gap: 0.75rem;
+    align-items: stretch;
+    width: 100%;
+    background-color: #0f172a;
+    padding: 1rem 0;
+  }
+
+  .nav-link {
+    text-align: center;
+  }
+}
