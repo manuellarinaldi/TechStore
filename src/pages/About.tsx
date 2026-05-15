@@ -3,24 +3,12 @@ import './About.css';
 interface Integrante {
   nome: string;
   rm: string;
-  papel: string;
 }
 
-const INTEGRANTES: Integrante[] = [
+const INTEGRANTE: Integrante[] = [
   {
-    nome: 'Integrante 1',
-    rm: 'RM000000',
-    papel: 'Desenvolvimento de componentes, rotas e tipagens.',
-  },
-  {
-    nome: 'Integrante 2',
-    rm: 'RM000000',
-    papel: 'Implementação das páginas e consumo da API.',
-  },
-  {
-    nome: 'Integrante 3',
-    rm: 'RM000000',
-    papel: 'Estilização, organização do projeto e deploy na Vercel.',
+    nome: 'Manuella Rinaldi',
+    rm: 'RM567915',
   },
 ];
 
@@ -30,9 +18,8 @@ export function About() {
       <header className="about-header">
         <h1>Sobre a TechStore</h1>
         <p>
-          Projeto desenvolvido para o CheckPoint 3 da disciplina de Front-End
-          Design Engineering, do curso de Análise e Desenvolvimento de Sistemas
-          (FIAP - Turma 1TDSPB).
+          TechStore é o projeto desenvolvido para o CheckPoint 3 da disciplina de Front-End
+          Design Engineering, do curso de Análise e Desenvolvimento de Sistemas.
         </p>
       </header>
 
@@ -61,21 +48,15 @@ export function About() {
       </section>
 
       <section className="about-section">
-        <h2>Integrantes</h2>
+        <h2>Integrante</h2>
         <div className="about-equipe">
-          {INTEGRANTES.map((integrante) => (
+          {INTEGRANTE.map((integrante) => (
             <div key={integrante.rm} className="about-integrante">
               <h3>{integrante.nome}</h3>
               <p className="about-integrante-rm">{integrante.rm}</p>
-              <p>{integrante.papel}</p>
             </div>
           ))}
         </div>
-        <p className="about-equipe-aviso">
-          ⚠️ Atualizem os nomes e RMs reais no arquivo
-          <code> src/pages/About.tsx </code>
-          e no <code>README.md</code> antes da entrega.
-        </p>
       </section>
     </div>
   );
