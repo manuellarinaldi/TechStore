@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import { Produto } from '../types/Produto'
 import { CardProduto } from '../components/CardProduto'
-import './Produto.css'
+import './Produtos.css'
 
 export const Produtos = () => {
   const [produtos, setProdutos] = useState<Produto[]>([])
@@ -30,9 +30,12 @@ export const Produtos = () => {
   if (erro) return <p>Ops! Algo deu errado: {erro}</p>
 
   return (
-    <section>
-      <h2>Nosso Catálogo</h2>
-      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)' }}>
+    <section className="produtos-page">
+      <div className="produtos-header">
+        <h1>Nosso Catálogo</h1>
+        <p>Encontre os melhores produtos tecnológicos</p>
+      </div>
+      <div className="produto-grid">
         {produtos.map(p => (
           <CardProduto key={p.id} produto={p} />
         ))}
