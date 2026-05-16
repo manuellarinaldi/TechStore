@@ -5,7 +5,7 @@ import { ErrorMessage } from '../components/ErrorMessage';
 import { ProductCard } from '../components/ProductCard';
 import { Button } from '../components/Button';
 import { getProdutosPorCategoria } from '../services/api';
-import type { Produto } from '../types/Product';
+import type { Produto } from '../types/Produto';
 import './CategoryProducts.css';
 
 export function CategoryProducts() {
