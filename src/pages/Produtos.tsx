@@ -1,33 +1,32 @@
-import { useEffect, useState } from 'react';
-import { Produto } from '../types';
-import { CardProduto } from '../components/CardProduto';
+import { useEffect, useState } from 'react'
+import { Produto } from '../types'
+import { CardProduto } from '../components/CardProduto'
 
 export const Produtos = () => {
-  const [produtos, setProdutos] = useState<Produto[]>([]);
-  const [loading, setLoading] = useState(true); // Estado de carregamento [cite: 100]
-  const [erro, setErro] = useState<string | null>(null); // Tratamento de erro [cite: 101]
+  const [produtos, setProdutos] = useState<Produto[]>([])
+  const [loading, setLoading] = useState(true)
+  const [erro, setErro] = useState<string | null>(null)
 
   useEffect(() => {
     const fetchProdutos = async () => {
       try {
-        // Substitua pela URL da sua API (pode ser um JSON local no public/)
-        const response = await fetch('http://localhost:5000/produto'); // [cite: 99]
-        if (!response.ok) throw new Error('Erro ao buscar dados');
-        
-        const data = await response.json(); // Conversão .json() [cite: 99]
-        setProdutos(data);
+        const response = await fetch('/produtos.json')
+        if (!response.ok) throw new Error('Erro ao buscar dados')
+        const json = await response.json()
+        const data: Produto[] = json.produtos
+        setProdutos(data)
       } catch (err: any) {
-        setErro(err.message);
+        setErro(err.message)
       } finally {
-        setLoading(false);
+        setLoading(false)
       }
-    };
+    }
 
-    fetchProdutos();
-  }, []);
+    fetchProdutos()
+  }, [])
 
-  if (loading) return <p>Carregando produtos...</p>; // [cite: 100]
-  if (erro) return <p>Ops! Algo deu errado: {erro}</p>; // [cite: 101]
+  if (loading) return <p>Carregando produtos...</p>
+  if (erro) return <p>Ops! Algo deu errado: {erro}</p>
 
   return (
     <section>
@@ -38,5 +37,5 @@ export const Produtos = () => {
         ))}
       </div>
     </section>
-  );
-};
+  )
+}

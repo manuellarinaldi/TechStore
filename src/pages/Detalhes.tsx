@@ -12,10 +12,12 @@ export const Detalhes = () => {
   useEffect(() => {
     const fetchProduto = async () => {
       try {
-        const response = await fetch(`http://localhost:5000/produto/${id}`); // [cite: 99]
+        const response = await fetch(`/produtos.json`); // [cite: 99]
         if (!response.ok) throw new Error('Produto não encontrado');
-        const data = await response.json();
-        setProduto(data);
+        const json = await response.json();
+        const data: Produto[] = json.produtos;
+        const produtoEncontrado = data.find(p => p.id === parseInt(id || '0'));
+        setProduto(produtoEncontrado || null);
       } catch (err: any) {
         setErro(err.message);
       } finally {

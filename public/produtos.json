@@ -1,0 +1,148 @@
+{
+  "produtos": [
+    {
+      "id": 1,
+      "nome": "Notebook Pro X15",
+      "categoria": "Notebooks",
+      "preco": 6499.9,
+      "imagem": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=600&h=400&fit=crop",
+      "descricaoCurta": "Notebook robusto para produtividade e estudos.",
+      "descricaoDetalhada": "Notebook com processador Intel Core i7 de 12ª geração, 16GB de RAM DDR5, SSD NVMe de 512GB, tela 15.6'' Full HD IPS, teclado retroiluminado e até 10h de bateria. Ideal para tarefas exigentes e trabalho remoto."
+    },
+    {
+      "id": 2,
+      "nome": "MacBook UltraBook Air 13",
+      "categoria": "Notebooks",
+      "preco": 5299.0,
+      "imagem": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=600&h=400&fit=crop",
+      "descricaoCurta": "Ultrabook leve com bateria de longa duração.",
+      "descricaoDetalhada": "Ultrabook ultra-fino com apenas 1.2kg, processador AMD Ryzen 5, 8GB RAM, SSD 256GB, tela 13.3'' Full HD e bateria de até 14 horas. Perfeito para mobilidade."
+    },
+    {
+      "id": 3,
+      "nome": "Iphone 11",
+      "categoria": "Celulares",
+      "preco": 3499.0,
+      "imagem": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=600&h=400&fit=crop",
+      "descricaoCurta": "Celular 5G com câmera tripla e tela AMOLED.",
+      "descricaoDetalhada": "Smartphone 5G com tela AMOLED 6.5'' 120Hz, câmera tripla de 50MP + ultrawide + telefoto, processador octa-core, 8GB RAM, 256GB de armazenamento e bateria 5000mAh com carregamento rápido."
+    },
+    {
+      "id": 4,
+      "nome": "Iphone 17 Pro",
+      "categoria": "Celulares",
+      "preco": 2199.0,
+      "imagem": "https://images.unsplash.com/photo-1592750475338-74b7b21085ab?w=600&h=400&fit=crop",
+      "descricaoCurta": "Custo-benefício excelente em câmera e desempenho.",
+      "descricaoDetalhada": "Smartphone intermediário com tela 6.4'' Super AMOLED, câmera principal 64MP, 6GB RAM, 128GB armazenamento expansível, bateria 4500mAh e leitor digital embutido na tela."
+    },
+    {
+      "id": 5,
+      "nome": "Tablet TabBook Plus 11",
+      "categoria": "Tablets",
+      "preco": 2899.0,
+      "imagem": "https://images.unsplash.com/photo-1561154464-82e9adf32764?w=600&h=400&fit=crop",
+      "descricaoCurta": "Tablet 11'' com suporte a caneta stylus.",
+      "descricaoDetalhada": "Tablet com tela 11'' 2K 120Hz, processador octa-core, 6GB RAM, 128GB armazenamento, suporte a caneta stylus, 4 alto-falantes com som estéreo e bateria de longa duração."
+    },
+    {
+      "id": 6,
+      "nome": "Tablet Kids 8",
+      "categoria": "Tablets",
+      "preco": 999.0,
+      "imagem": "https://images.unsplash.com/photo-1585789575373-2bb19e62f59f?w=600&h=400&fit=crop",
+      "descricaoCurta": "Tablet infantil com capa protetora reforçada.",
+      "descricaoDetalhada": "Tablet voltado para crianças com tela 8'' HD, controle parental avançado, capa de borracha reforçada, processador quad-core, 3GB RAM e 32GB de armazenamento."
+    },
+    {
+      "id": 7,
+      "nome": "Teclado Mecânico RGB Pro",
+      "categoria": "Periféricos",
+      "preco": 549.0,
+      "imagem": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=600&h=400&fit=crop",
+      "descricaoCurta": "Teclado mecânico com iluminação RGB e switches blue.",
+      "descricaoDetalhada": "Teclado mecânico gamer com switches blue, retroiluminação RGB com 16 milhões de cores, layout ABNT2, anti-ghosting e cabo USB destacável trançado."
+    },
+    {
+      "id": 8,
+      "nome": "Mouse Gamer Hyper 4K",
+      "categoria": "Periféricos",
+      "preco": 329.9,
+      "imagem": "https://images.unsplash.com/photo-1527814050087-3793815479db?w=600&h=400&fit=crop",
+      "descricaoCurta": "Mouse gamer com sensor óptico de alta precisão.",
+      "descricaoDetalhada": "Mouse gamer com sensor óptico de 26000 DPI, taxa de polling 4000Hz, 8 botões programáveis, peso ajustável, iluminação RGB e cabo paracord."
+    },
+    {
+      "id": 9,
+      "nome": "Monitor UltraView 27 4K",
+      "categoria": "Monitores",
+      "preco": 2799.0,
+      "imagem": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?w=600&h=400&fit=crop",
+      "descricaoCurta": "Monitor 27 polegadas 4K UHD com painel IPS.",
+      "descricaoDetalhada": "Monitor 27'' 4K UHD (3840x2160), painel IPS, 99% sRGB, HDR400, 60Hz, entradas HDMI 2.0 e DisplayPort, ajuste de altura, pivot e VESA 100x100."
+    },
+    {
+      "id": 10,
+      "nome": "Monitor Gamer Curvo 32",
+      "categoria": "Monitores",
+      "preco": 2299.0,
+      "imagem": "https://images.unsplash.com/photo-1616763355603-9755a640a287?w=600&h=400&fit=crop",
+      "descricaoCurta": "Monitor gamer curvo 165Hz com 1ms de resposta.",
+      "descricaoDetalhada": "Monitor curvo 32'' QHD (2560x1440), painel VA 1500R, 165Hz, 1ms de tempo de resposta, AMD FreeSync Premium e iluminação traseira RGB."
+    },
+    {
+      "id": 11,
+      "nome": "Fone Bluetooth Sound Pods",
+      "categoria": "Acessórios",
+      "preco": 599.9,
+      "imagem": "https://images.unsplash.com/photo-1572569511254-d8f925fe2cbb?w=600&h=400&fit=crop",
+      "descricaoCurta": "Fone TWS com cancelamento de ruído ativo.",
+      "descricaoDetalhada": "Fones de ouvido sem fio com Bluetooth 5.3, cancelamento de ruído ativo, drivers de 11mm, autonomia de até 30h com o case, resistência IPX4 e modo transparência."
+    },
+    {
+      "id": 12,
+      "nome": "Carregador Wireless 30W",
+      "categoria": "Acessórios",
+      "preco": 199.0,
+      "imagem": "https://images.unsplash.com/photo-1583863788434-e58a36330cf0?w=600&h=400&fit=crop",
+      "descricaoCurta": "Carregador sem fio compatível com Qi 30W.",
+      "descricaoDetalhada": "Base de carregamento sem fio compatível com padrão Qi, potência de até 30W, suporta carregamento rápido para celulares Android e iPhone, com proteção contra superaquecimento."
+    },
+    {
+      "id": 13,
+      "nome": "Smartwatch Fit Pulse 5",
+      "categoria": "Smartwatches",
+      "preco": 1299.0,
+      "imagem": "https://images.unsplash.com/photo-1546868871-7041f2a55e12?w=600&h=400&fit=crop",
+      "descricaoCurta": "Smartwatch com GPS e monitor cardíaco.",
+      "descricaoDetalhada": "Relógio inteligente com tela AMOLED 1.4'', GPS integrado, monitor cardíaco, oximetria, mais de 100 modos esportivos, resistência 5ATM e bateria de até 14 dias."
+    },
+    {
+      "id": 14,
+      "nome": "Watch Classic Steel",
+      "categoria": "Smartwatches",
+      "preco": 2199.0,
+      "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=600&h=400&fit=crop",
+      "descricaoCurta": "Smartwatch premium com pulseira de aço.",
+      "descricaoDetalhada": "Smartwatch premium com caixa em aço inoxidável, tela AMOLED 1.43'', alto-falante e microfone para ligações, NFC para pagamentos, GPS dual-band e diversos esportes."
+    },
+    {
+      "id": 15,
+      "nome": "Processador Ryzen 7 7700X",
+      "categoria": "Componentes",
+      "preco": 1899.0,
+      "imagem": "https://images.unsplash.com/photo-1555680202-c86f0e12f086?w=600&h=400&fit=crop",
+      "descricaoCurta": "Processador 8 núcleos AM5 para alta performance.",
+      "descricaoDetalhada": "Processador AMD Ryzen 7 com 8 núcleos e 16 threads, clock base 4.5GHz e turbo de até 5.4GHz, soquete AM5, 32MB de cache L3 e TDP 105W."
+    },
+    {
+      "id": 16,
+      "nome": "Placa de Vídeo RTX 4070",
+      "categoria": "Componentes",
+      "preco": 4499.0,
+      "imagem": "https://images.unsplash.com/photo-1591488320449-011701bb6704?w=600&h=400&fit=crop",
+      "descricaoCurta": "GPU NVIDIA RTX para jogos em 1440p e 4K.",
+      "descricaoDetalhada": "Placa de vídeo com GPU NVIDIA GeForce RTX 4070, 12GB GDDR6X, ray tracing acelerado, suporte a DLSS 3, três coolers e backplate metálico."
+    }
+  ]
+}
