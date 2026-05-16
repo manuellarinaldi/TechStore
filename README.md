@@ -13,71 +13,140 @@ Manuella Rinaldi RM:567915
 ## 🚀 Links
 
 - **Repositório GitHub:** https://github.com/manuellarinaldi/techstore
-- **Deploy Vercel:**
- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **Deploy Vercel:** https://techstore-a8vj.vercel.app/
 
-## React Compiler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🧱 Tecnologias utilizadas
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- **Vite** — bundler e dev server
+- **React 18** — biblioteca de UI
+- **TypeScript** — tipagem estática
+- **React Router DOM v6** — roteamento SPA
+- **Fetch API** — consumo da API
+- **JSON Server** — API REST de desenvolvimento
+- **Git + GitHub** — versionamento e colaboração
+- **Vercel** — deploy contínuo
+- **CSS puro** — estilização modular por componente
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+---
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## 📦 Estrutura do projeto
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```
+techstore/
+public/
+produto.json         
+logo.svg
+├── src/
+components/     
+  Header.tsx
+  Footer.tsx
+  NavMenu.tsx
+  ProductCard.tsx
+  CategoryCard.tsx
+  Loading.tsx
+  ErrorMessage.tsx
+  Button.tsx
+pages/          
+  Home.tsx
+  Products.tsx
+  ProductDetail.tsx
+  Categories.tsx
+  Categorias.tsx
+  Detalhes.tsx
+  Erro.tsx
+  CategoryProducts.tsx
+  About.tsx
+  NotFound.tsx
+routes/        
+  AppRoutes.tsx
+services/
+  api.ts
+styles/
+  global.css
+types/   
+  index.ts       
+  Product.ts
+  Produto.ts
+App.tsx
+main.tsx
+tsconfig*.json
+package.json
+vercel.json         
+vite.config.ts
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+# 🛒 TechStore — Catálogo de Produtos Tecnológicos
+
+## 📋 Descrição
+
+A TechStore é uma aplicação web que simula um catálogo de produtos tecnológicos, desenvolvida como projeto avaliativo (CheckPoint 3).
+
+A aplicação permite navegar por produtos como notebooks, celulares, tablets, periféricos, monitores, acessórios, smartwatches e componentes de computador.
+
+---
+
+## 👩‍💻 Integrantes
+
+| Nome | RM | Responsabilidade |
+|------|----|-----------------|
+| Manuella Rinaldi | 567915 | Desenvolvimento completo da aplicação (Front-End, Rotas, API, Deploy) |
+
+---
+
+## 🚀 Tecnologias Utilizadas
+
+- [Vite](https://vitejs.dev/)
+- [React 18](https://react.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [React Router DOM](https://reactrouter.com/)
+- Fetch API
+- Git e GitHub
+- [Vercel](https://vercel.com/)
+
+---
+
+## ⚙️ Instalação
+
+```bash
+# Clone o repositório
+git clone https://github.com/manuellarinaldi/techstore
+
+# Entre na pasta do projeto
+cd techstore
+
+# Instale as dependências
+npm install
 ```
+
+---
+
+## ▶️ Como executar localmente
+
+```bash
+npm run dev
+```
+
+Acesse: http://localhost:5173
+
+---
+
+## 🔗 Links
+
+- 📁 Repositório GitHub: https://github.com/manuellarinaldi/techstore
+- 🌐 Deploy na Vercel: https://techstore-a8vj.vercel.app/
+
+---
+
+## 📡 API Utilizada
+
+A aplicação consome dados de um arquivo `produtos.json` servido estaticamente pela pasta `public/`. 
+
+O arquivo contém um array de produtos com os campos: `id`, `nome`, `categoria`, `preco`, `imagem`, `descricaoCurta` e `descricaoDetalhada`.
+
+O consumo é feito via `fetch` com `async/await`, tratamento de erro com `try/catch` e estados de carregamento.
