@@ -1,0 +1,42 @@
+.detalhes-page {
+  padding: 32px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.detalhes-page img {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 24px;
+}
+
+.detalhes-page h1 {
+  font-size: 28px;
+  color: #0f1729;
+  margin-bottom: 8px;
+}
+
+.detalhes-preco {
+  font-size: 24px;
+  font-weight: bold;
+  color: #00b4d8;
+  margin: 12px 0;
+}
+
+.detalhes-categoria {
+  display: inline-block;
+  background: #0f1729;
+  color: #fff;
+  padding: 4px 12px;
+  border-radius: 4px;
+  font-size: 14px;
+  margin-bottom: 16px;
+}
+
+.detalhes-descricao {
+  color: #444;
+  line-height: 1.8;
+  margin-top: 16px;
+}

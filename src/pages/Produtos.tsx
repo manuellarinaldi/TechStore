@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import { Produto } from '../types/Produto'
 import { CardProduto } from '../components/CardProduto'
+import './Produto.css'
 
 export const Produtos = () => {
   const [produtos, setProdutos] = useState<Produto[]>([])

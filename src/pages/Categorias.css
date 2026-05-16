@@ -1,0 +1,25 @@
+.categorias-page {
+  padding-top: 2rem;
+}
+
+.categorias-header {
+  text-align: center;
+  margin-bottom: 1.8rem;
+}
+
+.categorias-header h1 {
+  margin: 0;
+  color: #0f172a;
+  font-size: 2.2rem;
+}
+
+.categorias-header p {
+  color: #64748b;
+  margin: 0.4rem 0 0;
+}
+
+.categorias-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 1.2rem;
+}

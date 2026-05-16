@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import './Categorias.css';
 
 export const Categorias = () => {
   const listaCategorias = ['Notebooks', 'Celulares', 'Tablets', 'Acessórios'];

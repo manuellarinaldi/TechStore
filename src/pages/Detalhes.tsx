@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { Produto } from '../types/Produto';
+import './Detalhes.css';
 
 export const Detalhes = () => {
   const { id } = useParams(); // Hook obrigatório
