@@ -1,10 +1,20 @@
-# React + TypeScript + Vite
+# 🛒 TechStore — Catálogo de Produtos Tecnológicos
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A TechStore simula um catálogo online de produtos de tecnologia (notebooks, celulares, tablets, periféricos, monitores, acessórios, smartwatches e componentes de computador), com navegação entre páginas, consumo de uma API via `fetch` e tipagem completa em TypeScript.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+---
+
+## 👥 Integrante
+Manuella Rinaldi RM:567915
+
+---
+
+## 🚀 Links
+
+- **Repositório GitHub:** https://github.com/manuellarinaldi/techstore
+- **Deploy Vercel:**
+ [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
 ## React Compiler
