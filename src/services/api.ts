@@ -5,7 +5,7 @@ const API_URL: string = import.meta.env.VITE_API_URL ?? '';
 
 function endpointProdutos(): string {
 
-  if (!API_URL) return '/db.json';
+  if (!API_URL) return '/produtos.json';
   return `${API_URL}/produtos`;
 }
 
