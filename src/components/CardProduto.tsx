@@ -1,4 +1,4 @@
-import { Produto } from '../types';
+import { Produto } from '../types/Produto';
 import { Link } from 'react-router-dom';
 
 // Tipagem das props (obrigatório!) [cite: 116]

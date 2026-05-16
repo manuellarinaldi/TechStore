@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import type { Produto } from '../types/Product';
+import type { Produto } from '../types/Produto';
 import { Button } from './Button';
 import './ProductCard.css';
 

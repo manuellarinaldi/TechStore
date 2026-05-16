@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
-import { Produto } from '../types';
+import { Produto } from '../types/Produto';
 
 export const Detalhes = () => {
   const { id } = useParams(); // Hook obrigatório

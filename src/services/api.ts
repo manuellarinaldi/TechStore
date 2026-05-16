@@ -1,4 +1,4 @@
-import type { Produto, RespostaProdutos } from '../types/Product';
+import type { Produto, RespostaProdutos } from '../types/Produto';
 
 
 const API_URL: string = import.meta.env.VITE_API_URL ?? '';
