@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import { Produto } from '../types/Produto'
-import { CardProduto } from '../components/CardProduto'
+import { ProductCard } from '../components/ProductCard'
 import './Produtos.css'
 
 export const Produtos = () => {
@@ -37,7 +37,7 @@ export const Produtos = () => {
       </div>
       <div className="produto-grid">
         {produtos.map(p => (
-          <CardProduto key={p.id} produto={p} />
+          <ProductCard key={p.id} produto={p} />
         ))}
       </div>
     </section>
